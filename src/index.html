@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/favicon.ico" />
-    <!-- <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" /> -->
     <title>Base</title>
 
     <!-- Flowbite -->
@@ -18,9 +17,163 @@
   <body>
     <!-- Header -->
     <header>
-      <h1 class="text-red-500">Xin chao</h1>
+      <div class="bg-white fixed w-full mx-auto z-20 top-0 start-0 shadow">
+        <div
+          class="px-4 py-4 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto font-medium text-gray-500 lg:px-8 lg:py-5"
+        >
+          <a
+            href="#"
+            class="flex items-center space-x-3 rtl:space-x-reverse lg:w-1/4"
+          >
+            <img src="./img/logo-light.svg" alt="Logo Light" />
+          </a>
+          <div
+            class="flex gap-5 lg:order-2 lg:space-x-0 rtl:space-x-reverse lg:hidden"
+          >
+            <img
+              style="padding-right: 0.5rem"
+              src="./img/icon-moon.svg"
+              alt="logo-dark"
+            />
+            <button
+              data-collapse-toggle="navbar-sticky"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              aria-controls="navbar-sticky"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="mt-4 p-8 items-center justify-between hidden w-full lg:flex lg:w-3/4 lg:order-1 lg:mt-0 lg:p-0"
+            id="navbar-sticky"
+          >
+            <ul
+              class="flex flex-col gap-5 lg:p-0 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:items-center"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="text-blue-500 rounded lg:bg-transparent lg:text-blue-700 lg:p-0"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="rounded hover:text-blue-500 lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <button
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="inline-flex items-center justify-between w-full rounded hover:text-blue-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 lg:w-auto"
+                >
+                  Pages
+                  <svg
+                    class="w-2.5 h-2.5 ms-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownNavbar"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow"
+                >
+                  <ul class="p-4" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 pt-2 pb-5 hover:text-blue-500"
+                      >
+                        Blog Grid
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 pb-5 hover:text-blue-500"
+                        >Blog Single
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 pb-5 hover:text-blue-500">
+                        Sign In
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 pb-5 hover:text-blue-500">
+                        Sign Up
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 pb-2 hover:text-blue-500">
+                        404
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="rounded hover:text-blue-500 lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0"
+                  >Support</a
+                >
+              </li>
+            </ul>
+            <div class="flex items-center mt-7 gap-6 rounded lg:mt-0">
+              <img
+                style="padding-right: 0.5rem"
+                src="./img/icon-moon.svg"
+                alt="logo-dark"
+                class="hidden lg:block lg:bg-transparentlg:p-0"
+              />
+              <a
+                href="#"
+                class="rounded hover:text-blue-500 lg:hover:bg-transparent lg:hover:text-blue-700"
+                >Sign In</a
+              >
+              <a
+                href="#"
+                class="px-7 py-3 text-white bg-blue-600 rounded-full hover:shadow-xl"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
+    <!-- Main -->
     <main>
       <!-- Hero -->
       <section></section>
@@ -64,7 +217,42 @@
 
     <!-- Footer -->
     <footer></footer>
-
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <!-- Flowbite -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
   </body>
