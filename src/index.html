@@ -6,20 +6,50 @@
     <link rel="icon" href="./img/favicon.ico" />
     <title>Base</title>
 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Flowbite -->
     <link
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
 
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Wowjs -->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="./css/input.css" />
     <link href="./css/output.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <div class="bg-white fixed w-full mx-auto z-20 top-0 start-0 shadow">
+      <div class="bg-white fixed w-full mx-auto z-50 top-0 start-0 shadow">
         <div
-          class="px-4 py-4 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto font-medium text-gray-500 lg:px-8 lg:py-5"
+          class="px-4 py-4 max-w-screen-xl mx-auto flex flex-wrap items-center justify-between font-medium text-gray-500 md:px-8"
         >
           <a
             href="#"
@@ -86,7 +116,7 @@
                 <button
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
-                  class="inline-flex items-center justify-between w-full rounded hover:text-blue-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 lg:w-auto"
+                  class="btn inline-flex items-center justify-between w-full rounded hover:text-blue-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 lg:w-auto"
                 >
                   Pages
                   <svg
@@ -150,12 +180,12 @@
                 >
               </li>
             </ul>
-            <div class="flex items-center mt-7 gap-6 rounded lg:mt-0">
+            <div class="flex items-center mt-7 gap-5 rounded lg:mt-0">
               <img
                 style="padding-right: 0.5rem"
                 src="./img/icon-moon.svg"
                 alt="logo-dark"
-                class="hidden lg:block lg:bg-transparentlg:p-0"
+                class="hidden cursor-pointer lg:block lg:bg-transparentlg:p-0"
               />
               <a
                 href="#"
@@ -173,87 +203,1163 @@
       </div>
     </header>
 
+    <div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+
     <!-- Main -->
     <main>
       <!-- Hero -->
       <section></section>
 
       <!-- Features -->
-      <section></section>
+      <section>
+        <div class="px-4 max-w-7xl mx-auto md:px-8">
+          <div
+            class="flex flex-wrap justify-center gap-8 text-gray-500 lg:justify-between lg:flex-nowrap lg:gap-5 xl:gap-20"
+          >
+            <div
+              class="wow animate__animated animate__fadeInDown flex gap-5 md:w-5/12 lg:w-1/3"
+            >
+              <div
+                class="flex flex-shrink-0 justify-center items-center w-20 h-20 bg-red-400 rounded-full"
+              >
+                <img src="./img/icon-01.svg" alt="icon" class="w-9 h-9" />
+              </div>
+              <div>
+                <h4 class="font-medium text-xl mb-3 text-black">
+                  24/7 Support
+                </h4>
+                <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
+              </div>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown flex gap-5 md:w-5/12 lg:w-1/3"
+            >
+              <div
+                class="flex flex-shrink-0 justify-center items-center w-20 h-20 bg-green-400 rounded-full"
+              >
+                <img src="./img/icon-02.svg" alt="icon" class="w-9 h-9" />
+              </div>
+              <div>
+                <h4 class="font-medium text-xl mb-3 text-black">
+                  Take Ownership
+                </h4>
+                <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
+              </div>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown flex gap-5 md:w-5/12 lg:w-1/3"
+            >
+              <div
+                class="flex flex-shrink-0 justify-center items-center w-20 h-20 bg-orange-400 rounded-full"
+              >
+                <img src="./img/icon-03.svg" alt="icon" class="w-9 h-9" />
+              </div>
+              <div>
+                <h4 class="font-medium text-xl mb-3 text-black">Team Work</h4>
+                <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Choose Us -->
       <section></section>
 
       <!-- Team -->
-      <section></section>
+      <section class="relative overflow-hidden py-20 lg:py-24 xl:py-32">
+        <span
+          class="w-full h-3/5 block absolute left-0 top-0 bg-gray-100"
+        ></span>
+        <img
+          src="./img/shape-08.svg"
+          alt="Shape"
+          class="absolute top-0 right-0"
+        />
+        <img
+          src="./img/shape-09.svg"
+          alt="Shape"
+          class="animate-spin absolute top-1/2 left-10%"
+        />
+        <img
+          src="./img/shape-10.svg"
+          alt="Shape"
+          class="absolute top-5% left-20%"
+        />
+        <img
+          src="./img/shape-11.svg"
+          alt="Shape"
+          class="animate-spin absolute top-10% right-10%"
+        />
+        <div>
+          <div
+            class="wow animate__animated animate__fadeInDown max-w-7xl mx-auto px-4 text-center lg:px-8 xl:px-0 relative z-10"
+          >
+            <h2
+              class="font-semibold text-3xl mb-5 mx-auto md:w-4/5 xl:text-5xl xl:w-1/2"
+            >
+              Meet With Our Creative Dedicated Team
+            </h2>
+            <p class="text-gray-500 mx-auto md:w-4/5 lg:w-3/5 xl:w-1/2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
+              ante in maximus.
+            </p>
+          </div>
+        </div>
+        <div
+          class="relative z-10 mx-auto px-4 mt-12 max-w-7xl md:px-8 xl:px-24"
+        >
+          <div
+            class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+          >
+            <div
+              class="wow animate__animated animate__fadeInDown animate__delay-1s text-center"
+            >
+              <div class="relative overflow-hidden group">
+                <img src="./img/team-01.png" alt="Team" class="w-full" />
+                <div
+                  class="group-hover:translate-y-0 transform transition-transform duration-500 translate-y-24"
+                >
+                  <span
+                    class="block -left-5 -inset-4rem w-120% absolute h-28 bg-blue-500 z-20 rotate-6"
+                  ></span>
+                  <span
+                    class="block left-0 bottom-0 w-full h-16 absolute bg-pink-400 z-10"
+                  ></span>
+                  <div class="left-0 bottom-0 w-full pt-5 pb-4 absolute z-30">
+                    <ul
+                      class="flex justify-center items-center gap-8 text-white"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="text-xl md:text-2xl lg">Olivia Andrium</h4>
+              <p class="text-gray-500">Product Manager</p>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown animate__delay-1s text-center"
+            >
+              <div class="relative overflow-hidden group">
+                <img src="./img/team-02.png" alt="Team" class="w-full" />
+                <div
+                  class="group-hover:translate-y-0 transform transition-transform duration-500 translate-y-24"
+                >
+                  <span
+                    class="block -left-5 -inset-4rem w-120% absolute h-28 bg-blue-500 z-20 rotate-6"
+                  ></span>
+                  <span
+                    class="block left-0 bottom-0 w-full h-16 absolute bg-pink-400 z-10"
+                  ></span>
+                  <div class="left-0 bottom-0 w-full pt-5 pb-4 absolute z-30">
+                    <ul
+                      class="flex justify-center items-center gap-8 text-white"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="text-xl md:text-2xl lg">Olivia Andrium</h4>
+              <p class="text-gray-500">Product Manager</p>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown animate__delay-1s text-center"
+            >
+              <div class="relative overflow-hidden group">
+                <img src="./img/team-03.png" alt="Team" class="w-full" />
+                <div
+                  class="group-hover:translate-y-0 transform transition-transform duration-500 translate-y-24"
+                >
+                  <span
+                    class="block -left-5 -inset-4rem w-120% absolute h-28 bg-blue-500 z-20 rotate-6"
+                  ></span>
+                  <span
+                    class="block left-0 bottom-0 w-full h-16 absolute bg-pink-400 z-10"
+                  ></span>
+                  <div class="left-0 bottom-0 w-full pt-5 pb-4 absolute z-30">
+                    <ul
+                      class="flex justify-center items-center gap-8 text-white"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="hover:text-pink-400 transition-colors duration-100"
+                        >
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="text-xl md:text-2xl lg">Olivia Andrium</h4>
+              <p class="text-gray-500">Product Manager</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Services -->
       <section></section>
 
       <!-- Pricing -->
-      <section></section>
+      <section
+        class="relative overflow-hidden bg-gray-100 py-20 lg:py-24 xl:py-32"
+      >
+        <img
+          src="./img/shape-06.svg"
+          alt="shape"
+          class="top-5% left-10% absolute"
+        />
+        <img
+          src="./img/shape-03.svg"
+          alt="shape"
+          class="top-20% right-20% absolute"
+        />
+        <img
+          src="./img/shape-07.svg"
+          alt="shape"
+          class="w-24 right-5% bottom-10% absolute"
+        />
+        <img
+          src="./img/shape-12.svg"
+          alt="shape"
+          class="left-0 bottom-0 absolute"
+        />
+        <img
+          src="./img/shape-13.svg"
+          alt="shape"
+          class="top-0 right-0 absolute"
+        />
+        <div>
+          <div
+            class="wow animate__animated animate__fadeInDown max-w-7xl mx-auto px-4 text-center md:px-8 xl:px-0 relative z-10"
+          >
+            <h2
+              class="font-semibold text-3xl mb-5 mx-auto md:w-4/5 xl:text-5xl xl:w-1/2"
+            >
+              We Offer Great Affordable Premium Prices.
+            </h2>
+            <p class="text-gray-500 mx-auto md:w-4/5 lg:w-3/5 xl:w-1/2">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center mt-12">
+          <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" />
+            <span class="me-3 font-medium text-gray-900 dark:text-gray-300"
+              >Bill Monthly</span
+            >
+            <div
+              class="relative w-11 h-6 bg-blue-600 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+            ></div>
+            <span class="ms-3 font-medium text-gray-900 dark:text-gray-300"
+              >Bill Annually</span
+            >
+          </label>
+        </div>
+        <div
+          class="relative z-10 mx-auto mt-14 max-w-7xl px-4 md:px-8 xl:px-20"
+        >
+          <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+            <div
+              class="wow animate__animated animate__fadeInDown text-center px-7 py-11 bg-white border border-gray-200 rounded-lg shadow"
+            >
+              <h5 class="mb-10 text-xl font-medium">Starter</h5>
+              <div
+                class="flex text-gray-900 mb-2 justify-center items-center gap-2"
+              >
+                <span class="text-4xl font-extrabold tracking-tight">$29</span>
+                <span class="ms-1 text-sm font-normal text-gray-500"
+                  >/per month</span
+                >
+              </div>
+              <p class="mb-9 text-gray-500">No credit card required</p>
+              <a
+                href="#"
+                class="text-white bg-pink-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium text-lg px-12 py-2.5 rounded-full inline-flex justify-center text-center"
+              >
+                Try for Free
+              </a>
+              <ul role="list" class="space-y-5 mt-7 mb-8">
+                <li class="flex items-center justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >400 GB Storaget</span
+                  >
+                </li>
+                <li class="flex justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >Unlimited Photos & Videos</span
+                  >
+                </li>
+                <li class="flex justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >Exclusive Support</span
+                  >
+                </li>
+              </ul>
+              <p class="m-0 text-base">7-day free trial</p>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown text-center px-7 py-11 bg-white border border-gray-200 rounded-lg shadow"
+            >
+              <h5 class="mb-10 text-xl font-medium">Growth Plan</h5>
+              <div
+                class="flex text-gray-900 mb-2 justify-center items-center gap-2"
+              >
+                <span class="text-4xl font-extrabold tracking-tight">$59</span>
+                <span class="ms-1 text-sm font-normal text-gray-500"
+                  >/per month</span
+                >
+              </div>
+              <p class="mb-9 text-gray-500">No credit card required</p>
+              <a
+                href="#"
+                class="text-white hover:bg-pink-400 bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium text-lg px-12 py-2.5 rounded-full inline-flex justify-center text-center"
+              >
+                Try for Free
+              </a>
+              <ul role="list" class="space-y-5 mt-7 mb-8">
+                <li class="flex items-center justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >400 GB Storaget</span
+                  >
+                </li>
+                <li class="flex justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >Unlimited Photos & Videos</span
+                  >
+                </li>
+                <li class="flex justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >Exclusive Support</span
+                  >
+                </li>
+              </ul>
+              <p class="m-0 text-base">7-day free trial</p>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown text-center px-7 py-11 bg-white border border-gray-200 rounded-lg shadow"
+            >
+              <h5 class="mb-10 text-xl font-medium">Business</h5>
+              <div
+                class="flex text-gray-900 mb-2 justify-center items-center gap-2"
+              >
+                <span class="text-4xl font-extrabold tracking-tight">$139</span>
+                <span class="ms-1 text-sm font-normal text-gray-500"
+                  >/per month</span
+                >
+              </div>
+              <p class="mb-9 text-gray-500">No credit card required</p>
+              <a
+                href="#"
+                class="text-white bg-pink-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium text-lg px-12 py-2.5 rounded-full inline-flex justify-center text-center"
+              >
+                Try for Free
+              </a>
+              <ul role="list" class="space-y-5 mt-7 mb-8">
+                <li class="flex items-center justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >400 GB Storaget</span
+                  >
+                </li>
+                <li class="flex justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >Unlimited Photos & Videos</span
+                  >
+                </li>
+                <li class="flex justify-center">
+                  <span
+                    class="text-base font-normal leading-tight text-gray-500"
+                    >Exclusive Support</span
+                  >
+                </li>
+              </ul>
+              <p class="m-0 text-base">7-day free trial</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Portfolio -->
       <section></section>
 
       <!-- Testimonial -->
-      <section></section>
+      <section>
+        <div>
+          <div
+            class="wow animate__animated animate__fadeInDown max-w-7xl mx-auto px-4 text-center lg:px-8 xl:px-0 relative z-10"
+          >
+            <h2
+              class="font-semibold text-3xl mb-5 mx-auto md:w-4/5 xl:text-5xl xl:w-1/2"
+            >
+              Client’s Testimonials
+            </h2>
+            <p class="text-gray-500 mx-auto md:w-4/5 lg:w-3/5 xl:w-1/2">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+        </div>
+        <div class="px-4 max-w-7xl mx-auto md:px-8 xl:px-28">
+          <div class="wow animate__animated animate__fadeInDown mt-12 xl:mt-20">
+            <div id="controls-carousel" class="w-full" data-carousel="static">
+              <!-- Carousel wrapper -->
+              <div class="relative h-svh overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div
+                  class="duration-700 ease-in-out"
+                  data-carousel-item="active"
+                >
+                  <div
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  >
+                    <div class="rounded-lg bg-white p-9 pr-10 shadow">
+                      <span
+                        class="block absolute right-0 top-0 h-1/2 w-1 bg-violet-500 rounded-tr-lg"
+                      ></span>
+                      <span
+                        class="block absolute right-0 bottom-0 h-1/2 w-1 bg-pink-500 rounded-br-lg"
+                      ></span>
+                      <div
+                        class="flex flex-col gap-8 md:flex-row md:items-center md:justify-center lg:gap-12"
+                      >
+                        <img
+                          class="flex-shrink-0"
+                          src="./img/testimonial.png"
+                          alt=""
+                        />
+                        <div>
+                          <img src="./img/icon-quote.svg" alt="" />
+                          <p
+                            class="mb-10 mt-5 text-lg font-medium font italic text-gray-500 lg:text-2xl"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In dolor diam, feugiat quis enim sed,
+                            ullamcorper semper ligula. Mauris consequat justo
+                            volutpat.
+                          </p>
+                          <div class="flex items-end justify-between">
+                            <div>
+                              <span class="mb-1 block text-lg font-medium"
+                                >Devid Smith</span
+                              >
+                              <span class="block text-gray-500"
+                                >Founter @democompany</span
+                              >
+                            </div>
+                            <img src="./img/brand-light-02.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="duration-700 ease-in-out" data-carousel-item>
+                  <div
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  >
+                    <div class="rounded-lg bg-white p-9 pr-10 shadow">
+                      <span
+                        class="block absolute right-0 top-0 h-1/2 w-1 bg-violet-500 rounded-tr-lg"
+                      ></span>
+                      <span
+                        class="block absolute right-0 bottom-0 h-1/2 w-1 bg-pink-500 rounded-br-lg"
+                      ></span>
+                      <div
+                        class="flex flex-col gap-8 md:flex-row md:items-center md:justify-center lg:gap-12"
+                      >
+                        <img
+                          class="flex-shrink-0"
+                          src="./img/testimonial.png"
+                          alt=""
+                        />
+                        <div>
+                          <img src="./img/icon-quote.svg" alt="" />
+                          <p
+                            class="mb-10 mt-5 text-lg font-medium font italic text-gray-500 lg:text-2xl"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In dolor diam, feugiat quis enim sed,
+                            ullamcorper semper ligula. Mauris consequat justo
+                            volutpat.
+                          </p>
+                          <div class="flex items-end justify-between">
+                            <div>
+                              <span class="mb-1 block text-lg font-medium"
+                                >Devid Smith</span
+                              >
+                              <span class="block text-gray-500"
+                                >Founter @democompany</span
+                              >
+                            </div>
+                            <img src="./img/brand-light-02.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="duration-700 ease-in-out" data-carousel-item>
+                  <div
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  >
+                    <div class="rounded-lg bg-white p-9 pr-10 shadow">
+                      <span
+                        class="block absolute right-0 top-0 h-1/2 w-1 bg-violet-500 rounded-tr-lg"
+                      ></span>
+                      <span
+                        class="block absolute right-0 bottom-0 h-1/2 w-1 bg-pink-500 rounded-br-lg"
+                      ></span>
+                      <div
+                        class="flex flex-col gap-8 md:flex-row md:items-center md:justify-center lg:gap-12"
+                      >
+                        <img
+                          class="flex-shrink-0"
+                          src="./img/testimonial.png"
+                          alt=""
+                        />
+                        <div>
+                          <img src="./img/icon-quote.svg" alt="" />
+                          <p
+                            class="mb-10 mt-5 text-lg font-medium font italic text-gray-500 lg:text-2xl"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In dolor diam, feugiat quis enim sed,
+                            ullamcorper semper ligula. Mauris consequat justo
+                            volutpat.
+                          </p>
+                          <div class="flex items-end justify-between">
+                            <div>
+                              <span class="mb-1 block text-lg font-medium"
+                                >Devid Smith</span
+                              >
+                              <span class="block text-gray-500"
+                                >Founter @democompany</span
+                              >
+                            </div>
+                            <img src="./img/brand-light-02.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="duration-700 ease-in-out" data-carousel-item>
+                  <div
+                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  >
+                    <div class="rounded-lg bg-white p-9 pr-10 shadow">
+                      <span
+                        class="block absolute right-0 top-0 h-1/2 w-1 bg-violet-500 rounded-tr-lg"
+                      ></span>
+                      <span
+                        class="block absolute right-0 bottom-0 h-1/2 w-1 bg-pink-500 rounded-br-lg"
+                      ></span>
+                      <div
+                        class="flex flex-col gap-8 md:flex-row md:items-center md:justify-center lg:gap-12"
+                      >
+                        <img
+                          class="flex-shrink-0"
+                          src="./img/testimonial.png"
+                          alt=""
+                        />
+                        <div>
+                          <img src="./img/icon-quote.svg" alt="" />
+                          <p
+                            class="mb-10 mt-5 text-lg font-medium font italic text-gray-500 lg:text-2xl"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In dolor diam, feugiat quis enim sed,
+                            ullamcorper semper ligula. Mauris consequat justo
+                            volutpat.
+                          </p>
+                          <div class="flex items-end justify-between">
+                            <div>
+                              <span class="mb-1 block text-lg font-medium"
+                                >Devid Smith</span
+                              >
+                              <span class="block text-gray-500"
+                                >Founter @democompany</span
+                              >
+                            </div>
+                            <img src="./img/brand-light-02.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slider controls -->
+              <div class="mt-12 flex justify-center items-center gap-4">
+                <button
+                  type="button"
+                  class="flex justify-center items-center w-10 h-10 rounded-full cursor-pointer border-2 border-gray-500 text-gray-500 hover:bg-blue-500 hover:text-white hover:border-blue-500"
+                  data-carousel-prev
+                >
+                  <i class="fa fa-arrow-left"></i>
+                </button>
+                <button
+                  type="button"
+                  class="flex justify-center items-center w-10 h-10 rounded-full cursor-pointer border-2 border-gray-500 text-gray-500 hover:bg-blue-500 hover:text-white hover:border-blue-500"
+                  data-carousel-next
+                >
+                  <i class="fa fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Counter -->
       <section></section>
 
       <!-- Brands -->
-      <section></section>
+      <section class="pt-20 lg:pt-24 xl:pt-32">
+        <div>
+          <div
+            class="wow animate__animated animate__fadeInDown max-w-7xl mx-auto px-4 text-center lg:px-8 xl:px-0 relative z-10"
+          >
+            <h2
+              class="font-semibold text-3xl mb-5 mx-auto md:w-4/5 xl:text-5xl xl:w-1/2"
+            >
+              Trusted by Global Brands
+            </h2>
+            <p class="text-gray-500 mx-auto md:w-4/5 lg:w-3/5 xl:w-1/2">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+        </div>
+        <div
+          class="mx-auto mt-14 max-w-7xl border-b-2 border-gray-100 px-4 pb-20 md:px-8 lg:pb-24 2xl:px-48"
+        >
+          <div
+            class="grid grid-cols-3 gap-7 justify-center items-center md:grid-cols-6 lg:gap-12 xl:gap-16"
+          >
+            <img
+              class="wow animate__animated animate__fadeInDown fill-gray-400"
+              src="./img/brand-light-01.svg"
+              alt=""
+            />
+            <img
+              class="wow animate__animated animate__fadeInDown fill-gray-400 opacity-65"
+              src="./img/brand-light-02.svg"
+              alt=""
+            />
+            <img
+              class="wow animate__animated animate__fadeInDown fill-gray-400 opacity-65"
+              src="./img/brand-light-03.svg"
+              alt=""
+            />
+            <img
+              class="wow animate__animated animate__fadeInDown fill-gray-400 opacity-65"
+              src="./img/brand-light-04.svg"
+              alt=""
+            />
+            <img
+              class="wow animate__animated animate__fadeInDown fill-gray-400 opacity-65"
+              src="./img/brand-light-05.svg"
+              alt=""
+            />
+            <img
+              class="wow animate__animated animate__fadeInDown fill-gray-400 opacity-65"
+              src="./img/brand-light-06.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
 
       <!-- Blog -->
       <section></section>
 
       <!-- Contact -->
-      <section></section>
+      <section
+        class="relative overflow-hidden bg-gray-100 py-20 lg:py-24 xl:py-32"
+      >
+        <img
+          src="./img/shape-06.svg"
+          alt="shape"
+          class="top-5% left-10% absolute"
+        />
+        <img
+          src="./img/shape-03.svg"
+          alt="shape"
+          class="top-20% right-20% absolute"
+        />
+        <img
+          src="./img/shape-07.svg"
+          alt="shape"
+          class="w-24 right-5% bottom-10% absolute"
+        />
+        <img
+          src="./img/shape-12.svg"
+          alt="shape"
+          class="left-0 bottom-0 absolute"
+        />
+        <img
+          src="./img/shape-13.svg"
+          alt="shape"
+          class="top-0 right-0 absolute"
+        />
+        <div>
+          <div
+            class="wow animate__animated animate__fadeInDown max-w-7xl mx-auto px-4 text-center lg:px-8 xl:px-0 relative z-10"
+          >
+            <h2
+              class="font-semibold text-3xl mb-5 mx-auto md:w-4/5 xl:text-5xl xl:w-1/2"
+            >
+              Let’s Stay Connected
+            </h2>
+            <p class="text-gray-500 mx-auto md:w-4/5 lg:w-3/5 xl:w-1/2">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using.
+            </p>
+          </div>
+        </div>
+        <div
+          class="relative z-10 mx-auto mt-12 px-4 max-w-7xl md:px-8 lg:mt-20 xl:px-9"
+        >
+          <div
+            class="flex flex-col-reverse flex-wrap gap-7 md:flex-row md:flex-nowrap justify-between"
+          >
+            <div
+              class="wow animate__animated animate__fadeInDown relative overflow-hidden rounded-lg bg-white p-7 shadow md:w-2/5 lg:w-1/3 xl:p-12"
+            >
+              <img
+                class="absolute top-5 right-5 w-7"
+                src="./img/shape-03.svg"
+                alt=""
+              />
+              <img
+                class="absolute bottom-5 right-5 w-6 rotate-180"
+                src="./img/shape-06.svg"
+                alt=""
+              />
+              <div class="mb-10">
+                <h4 class="mb-2 text-xl">Email Address</h4>
+                <p class="text-gray-500">support@startup.com</p>
+              </div>
+              <div class="mb-10">
+                <h4 class="mb-2 text-xl">Office Location</h4>
+                <p class="text-gray-500">76/A, Green valle, Califonia USA.</p>
+              </div>
+              <div class="mb-10">
+                <h4 class="mb-2 text-xl">Phone Number</h4>
+                <p class="text-gray-500">+009 8754 3433 223</p>
+              </div>
+              <div class="mb-10">
+                <h4 class="mb-2 text-xl">Skype Email</h4>
+                <p class="text-gray-500">example@yourmail.com</p>
+              </div>
+              <hr class="h-px my-8 bg-gray-300 border-0" />
+              <div>
+                <h4 class="mb-2 text-xl">Social Media</h4>
+                <ul class="flex items-center gap-4 text-gray-500">
+                  <li>
+                    <a
+                      href="#"
+                      class="flex h-10 w-10 items-center justify-center rounded-full duration-300 hover:bg-blue-600 hover:text-white"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="flex h-10 w-10 items-center justify-center rounded-full duration-300 hover:bg-blue-600 hover:text-white"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="flex h-10 w-10 items-center justify-center rounded-full duration-300 hover:bg-blue-600 hover:text-white"
+                    >
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="flex h-10 w-10 items-center justify-center rounded-full duration-300 hover:bg-blue-600 hover:text-white"
+                    >
+                      <i class="fab fa-behance"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="wow animate__animated animate__fadeInDown rounded-lg bg-white p-7 shadow md:w-3/5 lg:w-2/3 xl:p-14"
+            >
+              <form>
+                <div class="grid gap-6 mb-6 lg:grid-cols-2 text-gray-500">
+                  <div>
+                    <label
+                      for="full_name"
+                      class="block mb-4 text-sm font-medium"
+                    >
+                      Full name
+                    </label>
+                    <input
+                      type="text"
+                      id="full_name"
+                      class="bg-transparent border border-gray-200 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3.5 px-6 shadow"
+                      placeholder="John"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="email_address"
+                      class="block mb-4 text-sm font-medium"
+                    >
+                      Email address
+                    </label>
+                    <input
+                      type="text"
+                      id="email_address"
+                      class="bg-transparent border border-gray-200 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3.5 px-6 shadow"
+                      placeholder="example@yourmail.com"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="phone_number"
+                      class="block mb-4 text-sm font-medium"
+                    >
+                      Phone number
+                    </label>
+                    <input
+                      type="text"
+                      id="phone_number"
+                      class="bg-transparent border border-gray-200 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3.5 px-6 shadow"
+                      placeholder="+009 3342 3432"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="subject" class="block mb-4 text-sm font-medium">
+                      Subject
+                    </label>
+                    <input
+                      type="text"
+                      id="subject"
+                      class="bg-transparent border border-gray-200 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3.5 px-6 shadow"
+                      placeholder="Type your subject"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="mx-auto mb-10 text-gray-500 text-base">
+                  <label for="message" class="block mb-4 font-medium"
+                    >Message</label
+                  >
+                  <textarea
+                    id="message"
+                    rows="4"
+                    class="bg-transparent border border-gray-200 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-3.5 px-6 shadow"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="flex justify-center">
+                  <button
+                    type="submit"
+                    class="px-7 py-3 text-white bg-blue-600 rounded-full hover:shadow-xl"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Conversion -->
       <section></section>
     </main>
 
     <!-- Footer -->
-    <footer></footer>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <footer class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 md:py-8">
+        <div class="py-20 lg:py-24">
+          <div class="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
+            <div
+              class="wow animate__animated animate__fadeInDown w-1/2 lg:w-1/4"
+            >
+              <a href="index.html" class="flex items-center">
+                <img
+                  src="./img/logo-light.svg"
+                  class="h-8 me-3"
+                  alt="FlowBite Logo"
+                />
+                <span
+                  class="self-center text-2xl font-semibold whitespace-nowrap"
+                  >Base</span
+                >
+              </a>
+              <p class="mb-10 mt-5 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <ul class="flex items-center gap-5 text-gray-300 text-xl">
+                <li>
+                  <i
+                    class="fab fa-facebook-f cursor-pointer hover:text-blue-600"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fab fa-twitter cursor-pointer hover:text-blue-600"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fab fa-linkedin-in cursor-pointer hover:text-blue-600"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fab fa-behance cursor-pointer hover:text-blue-600"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 md:w-8/12"
+            >
+              <div class="wow animate__animated animate__fadeInDown">
+                <h2 class="mb-9 text-2xl">Quick Links</h2>
+                <ul class="text-gray-500 font-medium">
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Product</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Careers
+                      <span
+                        class="ml-2 inline-block rounded-full bg-green-500 py-0.5 px-3 text-xs font-medium text-white"
+                        >Hiring</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Pricing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="wow animate__animated animate__fadeInDown">
+                <h2 class="mb-9 text-2xl">Services</h2>
+                <ul class="text-gray-500 font-medium">
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Web Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Graphics Design</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Ui/Ux Design</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="wow animate__animated animate__fadeInDown">
+                <h2 class="mb-9 text-2xl">Support</h2>
+                <ul class="text-gray-500 font-medium">
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Company</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Press media</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Our Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="mb-3 inline-block hover:text-blue-700"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="wow animate__animated animate__fadeInDown">
+                <h2 class="mb-9 text-2xl">Newsletter</h2>
+                <p class="text-gray-500 font-medium w-11/12 mb-4">
+                  Subscribe to receive future updates
+                </p>
+                <form>
+                  <div class="relative">
+                    <input
+                      type="text"
+                      class="w-full rounded-full border border-gray-200 py-3 px-6 shadow"
+                      placeholder="Enter your email"
+                    />
+                    <button
+                      class="absolute right-0 px-4 cursor-pointer hover:text-blue-700 h-full items-center justify-center text-xl text-gray-500"
+                    >
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <div class="wow animate__animated animate__fadeInDown">
+            <ul class="flex items-center gap-8">
+              <li><a href="#" class="hover:text-blue-700">English</a></li>
+              <li>
+                <a href="#" class="hover:text-blue-700">Privacy Policy</a>
+              </li>
+              <li><a href="#" class="hover:text-blue-700">Support</a></li>
+            </ul>
+          </div>
+          <span
+            class="wow animate__animated animate__fadeInDown text-gray-500 sm:text-center"
+            >© 2025 Base. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
     <!-- Flowbite -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+    <!-- Wowjs -->
+    <script src="./libs/wowjs/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
