@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animate__fadeInDown {
+    animation-duration: 2.8s;
+}
